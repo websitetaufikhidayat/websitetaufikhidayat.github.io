@@ -1,0 +1,285 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.tangkis {
+	padding:2px 0;
+	background-color:#00BDFF;
+}
+.tangkis ul li{
+	display: inline-block;
+	color: #fff;
+	margin-right: 10px;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+header h1{
+	float: left;
+	padding: 15px 0;
+	color:#F7183A;
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color:#F7183A;
+	color: #fff;
+}
+.active{
+	background-color:#F7183A;
+	color: #fff;
+}
+.taufik2 {
+	height: 60vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url(images/taufik2.JPeg);
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+	text-indent: 50px;
+}
+.taufik:after {  
+	content: '';
+	display: block;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(255, 87, 51, .6);
+}
+.taufik2 p{
+	color: #fff;
+	z-index: 1;
+	padding: 20px 25px;
+	border: 2px solid #fff;
+}
+section{
+	padding: 50px 0;
+	font-size: 18px;
+	margin-bottom: -30px;
+
+}
+section h3{
+	text-align: center;
+	padding: 10px 0;
+	color:#2BEFD4;
+
+}
+.BackhandSmash p{
+	color:#0af4d6;
+	margin-bottom: -50px;
+}
+
+footer {
+	padding: 30px 0;
+	background-color:#FF1E1E;
+	color:#00BDFF;
+	text-align: center;
+}
+
+main {
+	display: flex;
+	flex-wrap: nowrap;
+	height: -webkit-fill-available;
+	max-height: 100vh;
+	overflow: auto;
+	overflow-y: hidden;
+}
+.sidebar{
+	left: 0px;
+	width: 250px;
+	height: 60%;
+	background:#22A4FF;
+	transition: all 0.8s ease;
+	position: fixed;
+}
+
+.sidebar .top {
+	font-size: 22px;
+	color: black;
+	text-align: center;
+	line-height: 70px;
+	background:#F7183A;
+}
+
+.sidebar ul a {
+	display: block;
+	height: 100%;
+	width: 100%;
+	line-height: 65px;
+	font-size: 20px;
+	color: white;
+	padding-left: 30px;
+	box-sizing: border-box;
+	border-top: 1px solid rgba(255,255,255, 0.1);
+	border-bottom: 1px solid black; 
+	transition: all 0.4s ease;
+}
+
+.sidebar ul a i {
+	margin-right: 16px;
+}
+
+.grepong ul li:hover a{
+	padding-left: 50px;
+	background:#0641AD;
+}
+
+#check {
+	display: none;
+}
+
+label #btn {
+	position: absolute;
+	cursor: pointer;
+	background: white;
+	border-radius: 3px;
+}
+
+label #open {
+	margin-top: 10px;
+	position: absolute;
+	cursor: pointer;
+	border-radius: 1px;
+	font-size: 30px;
+}
+
+label #open {
+	left: 0;
+	top: 13;
+	font-size: 30px;
+	color: white;
+	padding: 6px 12px;
+	transition: all 0.5s ease;
+}
+
+label #btn {
+	margin-top: 90px;
+	z-index: 1111;
+	left: 195px;
+	top: 25px;
+	font-size: 20px;
+	color: black;
+	padding: 4px 9px;
+	transition: all 0.5s ease;
+}
+
+#check:checked~.sidebar {
+	left: -250px;
+}
+
+#check:checked~label #open {
+	left: 50px;
+	font-size: 20px;
+}
+
+#check:checked~label #btn {
+	left: -250px;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 15px;
+  background-color: #00BDFF;
+}
+.carousel-inner {
+  padding: 1em;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (min-width: 768px) {
+  .card img {
+    height: 11em;
+  }
+
+.card-text p {
+	color: black;
+}
+.card-title h5 {
+	color: black;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 50px;
+	height: 60px;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu li a {
+	padding: 10px 25px;
+	text-decoration: none;
+}
+
+nav .menu li {
+	list-style: none;
+	padding: 10px;
+}
+
+nav .menu li:hover {
+	background-color:#blue;
+}
+
+nav .container {
+	font-size: xx-large;
+	font-weight: bold;
+}
+
+nav .container a {
+	text-decoration: none;
+	color: #F7183A;
+}
+
+nav .menu .dropdown {
+	display: none;
+}
+
+nav ul li:hover .dropdown {
+	display: block;
+	background-color: #F7183A;
+	position: absolute;
+	margin-top: 5px;
+	padding: 1px;
+	border-radius: 10px;
+}

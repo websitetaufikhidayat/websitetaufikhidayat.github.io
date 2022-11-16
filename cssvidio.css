@@ -1,0 +1,21 @@
+body {
+
+	background-color:#00BDFF;
+	background-position: center;
+}
+
+.vidio h1 {
+	margin-bottom: -50px;
+}
+
+.vidio video source{
+	align-items: center;
+	display: inline-block;
+	position: absolute;
+}
+
+.ini {
+	font-size: 15px;
+	text-indent: 70px;
+}
+
